@@ -1,12 +1,21 @@
 <?php
 
 $config = [
-    'database' => [
-        'host' => 'localhost',
-        'port' => '3306',
-        'database' => '',
-        'username' => '',
-        'password' => '',
+    'databases' => [
+        [
+            'host' => 'localhost',
+            'port' => '3306',
+            'database' => '',
+            'username' => '',
+            'password' => '',
+        ],
+        [
+            'host' => 'localhost',
+            'port' => '3306',
+            'database' => '',
+            'username' => '',
+            'password' => '',
+        ],
     ],
     'patterns' => [
         [
